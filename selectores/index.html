@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registro | CampusTech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Questrial&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="form-wrapper">
+        <article class="form-container">
+            <header>
+                <h1>Únete a CampusTech</h1>
+                <p id="form-description">Completa los campos para crear tu perfil</p>
+            </header>
+            <form>
+                <section>
+                    <fieldset>
+                        <legend>Informacion de Identidad</legend>
+                        <div class="form-field">
+                            <label for="full-name">Nombre Completo</label>
+                            <input type="text" id="full-name" name="full-name" autocomplete="name" placeholder="Ej. Jhon Doe" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Correo Electronico</label>
+                            <input type="email" id="email" name="email" autocomplete="name" placeholder="jhon@email.com" required>
+                            <small class="helper-text">No compartiremos tu correo con terceros.</small>
+                        </div>
+                    </fieldset>
+                </section>
+                <section>
+                    <fieldset>
+                        <legend>Perfil de Trabajo</legend>
+                        <div class="form-field">
+                            <label for="specialty">Especialidad Principal</label>
+                            <select id="specialty" name="specialty" required>
+                                <option value="" disabled selected>Seleccione una</option>
+                                <option value="frontend">Desarrollo Frontend</option>
+                                <option value="backend">Desarrollo Backend</option>
+                                <option value="devops">Ingeniería Devops</option>
+                            </select> 
+                        </div>
+                        <div class="form-field">
+                            <p id="experience-label" class="label-style">Nivel de Experiencia: </p>
+                            <div class="options-container">
+                                <label class="radio-label">
+                                    <input type="radio" name="exp-level" value="jr">Junior
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="exp-level" value="mid">Semi-Senior
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="exp-level" value="sr">Senior
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </section>
+                <footer>
+                    <div class="form-field checkbox-field">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">He leído y acepto los <a href="#">terminos de servicio.</a></label>
+                    </div>
+                    <nav class="form-actions">
+                        <button type="submit" class="btn-primary">Finalizar Registro</button>
+                        <button type="reset" class="btn-secondary">Limpiar Campos</button>
+                    </nav>
+                </footer>
+            </form>
+        </article>
+    </main>
+</body>
+</html>
