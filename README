@@ -1,0 +1,26 @@
+# 🚀 Registro de Talento - CampusTech
+
+Proyecto desarrollado para el taller de HTML5 y CSS, enfocado en la creación de formularios modernos, responsivos y con alta interactividad visual.
+
+## 🛠️ Tecnologías Aplicadas
+* **HTML5**: Estructura semántica avanzada.
+* **CSS3**: Variables globales (`:root`), Flexbox para alineación y animaciones de transición.
+* **Google Fonts**: Tipografía *Instrument Sans* para un estilo tecnológico.
+
+## ✨ Características de Diseño
+* **Interactividad Circular**: Los botones de selección (`radio`) cuentan con un efecto de enfoque (*focus*) totalmente circular, eliminando los bordes cuadrados nativos del navegador.
+* **Animaciones de Acción**: Botones de "Enviar" y "Limpiar" con efectos de elevación y cambio de color dinámico.
+* **Validación en Tiempo Real**: Indicadores visuales en campos obligatorios mediante bordes laterales de estado.
+* **Responsive Design**: Optimizado para una visualización perfecta tanto en escritorio como en dispositivos móviles.
+
+## 📂 Organización de Archivos
+* `index.html`: Contenido y estructura.
+* `styles.css`: Hoja de estilos con variables de marca.
+
+---
+*Desarrollado para el Taller HTML5-CSS.*
+
+🚀 Instalación y Uso
+Clona este repositorio o descarga el archivo .zip.
+Abre el archivo index.html en tu navegador favorito.
+¡Listo!
